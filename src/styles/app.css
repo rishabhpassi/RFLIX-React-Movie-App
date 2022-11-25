@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Source+Sans+Pro&display=swap');
+
+
+
+:root{
+    background-color: #dd0d26;
+   
+
+
+}
+
+
+
+
+
+
+.modal-fullscreen .modal-content{
+    background-color: #dd0d26;;
+    text-align: center;
+    
+}
+
+img.poster{
+    height: 50vh;
+    width: 50vh;
+    
+}
+button.btn{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgb(41, 18, 58);
+    padding: 15px 40px;
+    border-radius: 4px;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
+button.btn:hover{
+    
+        color: rgba(255, 255, 255, 1);
+        box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+      
+}
+button.btn:focus{
+    background: rgb(237, 213, 255);
+    color: #dd0d26;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+@media screen and (min-width:1000px) {
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon{
+       
+        display: none;
+    }
+   }
+
+   ul.results{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-column-gap: 1rem;
+    grid-row-gap: 2rem;
+   }
+   .modal-title {
+    padding: 29rem auto;
+    margin: auto;
+   
+    text-shadow: 2px 2px #bea1a1;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: larger;
+}
+
+
+
+.add-content {
+    padding: 50px 0;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .add-content .input-wrapper input {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: var(--white);
+    font-size: 1.25rem;
+  }
+  
+  .results {
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+  }
+  
+  .results li {
+    list-style: none;
+  }
+  .movies img:hover{
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.5);
+    
+
+  }
+  footer{
+      background-color: black;
+      color:white;
+      text-align: center;
+      
+  }
+  
+ 
+  
+  
+  
+  
+
+
+

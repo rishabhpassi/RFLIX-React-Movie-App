@@ -1,0 +1,48 @@
+.movie-selector{
+    
+    margin-right: 0rem;
+    margin: inherit;
+    
+    
+}
+.movie-selector table{
+    margin: 0 auto;
+    box-shadow: 2px 2px #deffe9;
+    
+}
+.movie-selector table td{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px ;
+    background-color: rgb(7, 7, 0);
+    
+    
+
+}
+.movie-selector a{
+    text-decoration: none;
+    color: rgb(243, 241, 241);
+    
+}
+.movie-selector a:hover{
+    color: rgb(174, 0, 0);
+   
+}
+.movie-selector a::after{
+    color: rgb(174, 0, 0);
+}
+.title-movie{
+    padding: 1rem ;
+    font-weight: bolder;
+    text-decoration:dotted;
+}
+
+
+  
+
+
+
+
+
+
+
+
