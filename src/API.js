@@ -1,6 +1,6 @@
 const API_URL = "https://api.themoviedb.org/3/";
 
-const API_KEY = "2c2fd8081560b42cbc58912cedecee23";
+const API_KEY = "";
 
 const SEARCH_BASE_URL = `${API_URL}search/movie?api_key=${API_KEY}&query=`;
 
